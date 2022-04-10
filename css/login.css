@@ -1,0 +1,53 @@
+#loginSection{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+#loginForm input{
+    margin:15px 0;
+}
+#loginForm .userRoles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#loginForm .formInput:focus{
+    border:1px solid #75a5d4;
+    outline: none !important;
+}
+#loginForm .formInput{
+    width: 100%;
+    display: block;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border:1px solid #ced4da;
+    padding: 0.3rem 0.65rem;
+    transition: border .3s ease-in;
+    font-size: 1rem;
+}
+
+#loginForm .submitBtn{
+    color:white;
+    background-color: #3F6FCE;
+    font-weight: 400;
+    border:none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+    text-align: center;
+}
+

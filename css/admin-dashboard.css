@@ -1,0 +1,77 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+h1 {
+    font-size: 15vmin;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 5vmin;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.forbiddenContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    --mouseStartX: -64;
+    --mouseStartY: -64;
+    overflow: hidden;
+}
+
+#jail {
+    position: relative;
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+#spinner {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    transform-origin: 50% 50%;
+    animation: 4s spin linear infinite;
+}
+
+#spinner {
+    display: block;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+

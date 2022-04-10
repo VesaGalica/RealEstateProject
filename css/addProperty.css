@@ -1,0 +1,141 @@
+
+#preview{
+    width:150px;
+}
+#uploadProperty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 70%;
+    margin: 150px auto 50px;
+}
+#uploadProperty > div{
+    width: 100%;;
+}
+.formInput{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+#imgInput{
+    flex-direction: column;
+    padding-left: 30%;
+}
+#imgInput > label{
+    margin-bottom: 30px;
+}
+
+.p-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    background-blend-mode:normal;
+}
+.sub-contain{
+    max-width: 540px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width: 1200px){
+.sub-contain{
+    max-width: 1170px;
+}}
+.sub-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.sub-col{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   display: block;
+}
+@media screen and (min-width: 992px){
+    .flex-row{
+        flex-direction: row;
+    }
+    .align-items-start{
+        align-items: flex-start;
+    }
+    .justify-content-start{
+        justify-content: flex-start
+    }
+    .d-flex{
+        display: flex;
+    }
+}
+.newsletter_title_container{
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+.newsletter_title{
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+    line-height: 0.75;
+    white-space: nowrap;
+}
+.newsletter_subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    color: aliceblue;
+    line-height: 0.75;
+    margin-top: 15px;
+}
+.newsletter_form_container{
+    width: 100%;
+}
+.newsletter_form{
+    display: block;
+    position: relative;
+    width: 100%;
+
+}
+.newsletter_input{
+    height: 52px;
+    width: 100%;
+    border-radius: 36px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+}
+.newsletter_btn{
+    width: 173px;
+    height: 52px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #FFFFFF;
+    border-radius: 36px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #487fee, #32fa95);
+}
+
+#uploadProperty > div:nth-child(2) > div:nth-child(4) > button{
+    height: unset;
+    width: unset;
+    padding: 20px 100px;
+}
+.warning{
+    color: red;
+    display: none;
+}

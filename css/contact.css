@@ -1,0 +1,317 @@
+.contacts{
+    font-size: 14px;
+    background: #ffffff;
+    color: #a3a3a3;
+    position: relative;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-info{
+    text-align: left;
+    padding-left: 65px;
+    padding-right:15px;
+    background: #ffffff;
+    padding-top: 119px;
+    padding-bottom: 105px;
+    position: relative; 
+}
+.wrap-contact{
+    font-family: inherit;
+    padding-left: 15px;
+    padding-right: 100px;
+    
+    font-size: 14px;
+    background: #ffffff;
+    padding-top: 119px;
+    padding-bottom: 105px;
+    position: relative;
+    width: 100%;
+}
+@media screen and (max-width:991px){
+    .contacts{
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: column;
+        display: flex;
+    }}
+    .contact-form{
+    
+    }
+    @media screen and (max-width: 991px){
+        .contact-form{
+            padding-left: 180px;
+        }
+    }
+.title{
+    text-align: left;
+    color: #282828;
+    font-size: 35px;
+}
+.subtitle{
+    text-align: left;
+    margin-top:15px;
+}
+.contact-info-txt{
+    padding-left: 0px;
+    text-align: left;
+}
+.contact-info-list{
+    margin-top: 50px;
+    padding-left: 0px;
+    text-align: left;
+}
+.contact-info-content{
+    margin-top: 50px;
+    padding-right: 10px;
+}
+li{
+    color: #3f6fce;
+    margin-block-start: 2em;
+    list-style-type: none;
+}
+.input{
+    padding-left: 38px;
+    margin-bottom: 17px;
+    border-radius: 24px;
+    border: none;
+    background: #f1f6f9;
+    width: 100%;
+    height: 48px;
+}
+.contact-form-btn{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 193px;
+    height: 72px;
+    background: linear-gradient(to right,#487fee,#32fa95);
+    text-align: center;
+    border-radius: 36px;
+    float: left;
+    text-transform: uppercase;
+}
+.messages{
+    height: 153px;
+    padding-left: 38px;
+    margin-bottom: 17px;
+    border-radius: 24px;
+    border: none;
+    background: #f1f6f9;
+    width: 100%;
+    padding-top: 20px;
+}
+.position{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border: none;
+    color: #3f6fce;
+    cursor: pointer;
+    text-align: center;
+    padding: 13px;
+    background: none;
+}
+
+.p-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    background-blend-mode:normal;
+}
+.sub-contain{
+    max-width: 540px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width: 1200px){
+.sub-contain{
+    max-width: 1170px;
+}}
+.sub-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.sub-col{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   display: block;
+}
+@media screen and (min-width: 992px){
+    .flex-row{
+        flex-direction: row;
+    }
+    .align-items-start{
+        align-items: flex-start;
+    }
+    .justify-content-start{
+        justify-content: flex-start
+    }
+    .d-flex{
+        display: flex;
+    }
+}
+.newsletter_title_container{
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+.newsletter_title{
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+    line-height: 0.75;
+    white-space: nowrap;
+}
+.newsletter_subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    color: aliceblue;
+    line-height: 0.75;
+    margin-top: 15px;
+}
+.newsletter_form_container{
+    width: 100%;
+}
+.newsletter_form{
+    display: block;
+    position: relative;
+    width: 100%;
+
+}
+.newsletter_input{
+    height: 52px;
+    width: 100%;
+    border-radius: 36px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+}
+.newsletter_btn{
+    width: 173px;
+    height: 52px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #FFFFFF;
+    border-radius: 36px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #487fee, #32fa95);
+}
+
+.home-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 0.75;
+}
+@media screen and (max-width: 991px){
+.home-title {
+    font-size: 48px;
+}}
+.home-container{
+    position: absolute;
+    left: 0;
+    bottom: 173px;
+    width: 100%;
+}
+.contain{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width: 1200px){
+.container {
+    max-width: 1170px;
+}}
+.contain-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.contain-col{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 90px;
+    padding-left: 50px;
+}
+/* .home-content{
+    position: relative;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+} */
+@media screen and (min-width: 992px){
+.flex-row{
+    flex-direction: row;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.justify-content-start{
+    justify-content: flex-start
+}
+.d-flex{
+    display: flex;
+}
+}
+.homecontact{
+    margin-left: auto;
+}
+.hclists ul
+    {
+        line-height: 0.75;
+    }
+.hclists ul li
+{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 0.75;
+}
+.hclists ul li:not(:last-child)::after
+{
+    display: inline-block;
+    content: '/';
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.hclists ul li a
+{
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 0.75;
+    transition: all 200ms ease;
+}
+.hclists ul li a:hover
+{
+    color: rgb(4, 4, 68);
+}
